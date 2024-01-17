@@ -1,3 +1,5 @@
+import { doPayment } from "./service.js";
+
 export const controller = async (req, res) => {
   const { cardNumber, cvv, amount, holderName, expirationDate, itemName } = req.body;
 
