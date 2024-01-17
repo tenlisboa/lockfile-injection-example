@@ -5,6 +5,7 @@
   "type": "module",
   "license": "MIT",
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
     "axios": "^1.6.5",
     "express": "^4.18.2"
   }
